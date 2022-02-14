@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Random-Questionary/static/css/main.a871dcbe.css",
+    "main.js": "/Random-Questionary/static/js/main.be72442f.js",
+    "static/js/787.27979d97.chunk.js": "/Random-Questionary/static/js/787.27979d97.chunk.js",
+    "index.html": "/Random-Questionary/index.html",
+    "main.a871dcbe.css.map": "/Random-Questionary/static/css/main.a871dcbe.css.map",
+    "main.be72442f.js.map": "/Random-Questionary/static/js/main.be72442f.js.map",
+    "787.27979d97.chunk.js.map": "/Random-Questionary/static/js/787.27979d97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a871dcbe.css",
+    "static/js/main.be72442f.js"
+  ]
+}
