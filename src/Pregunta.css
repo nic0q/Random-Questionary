@@ -1,0 +1,23 @@
+.Pregunta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.button{
+  font-size: 20px;
+  border: 2px white solid;
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  margin: 8px;
+  background-color: transparent;
+  font-weight: bolder;
+  
+}
+.button:hover{
+  background-color: whitesmoke;
+  color: black;
+}
