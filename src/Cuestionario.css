@@ -1,0 +1,50 @@
+.Pregunta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.button {
+  font-size: 20px;
+  border: 2px white solid;
+  width: 350px;
+  height: 60px;
+  text-align: center;
+  margin: 8px;
+  background-color: transparent;
+  font-weight: bolder;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.FinalScore {
+  font-size: 100px;
+  margin-top: 200px;
+  
+}
+.ReviewAnswer {
+  padding: 0;
+  background-color: blue;
+  margin: 30px;
+  display: inline-block;
+  width: 60%;
+}
+.rQuestion {
+  background-color: rgb(33, 20, 46);
+  padding: 20px;
+  margin: 20px;
+}
+.rAnswer {
+  background-color: rgb(198, 181, 214);
+  padding: 20px;
+  margin: 20px;
+}
+.IncorrectAns {
+  background-color: rgb(206, 17, 89);
+}
+.CorrectAns {
+  background-color: rgb(17, 206, 58);
+}
