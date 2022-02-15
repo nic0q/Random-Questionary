@@ -7,6 +7,7 @@ export default function Questionary() {
   const [question, setQuestion] = useState([])
   const [answers, setAnswer] = useState([])
   const [score, setScore] = useState(0)
+
   useEffect(() => {
     getPreguntas().then((promis) => setQuestion(promis.results))
   }, [])
@@ -83,11 +84,15 @@ export default function Questionary() {
                 .replace(/&quot;/g, "")
                 .replace(/&#039;/g, "")}`}</h5>
               {answers[i] === quest.correct_answer ? (
-                <p className="rAnswer CorrectAns">{`${answers[i]} `}</p>
+                <p className="rAnswer CorrectAns">{`${answers[i]
+                  .replace(/&quot;/g, "")
+                  .replace(/&#039;/g, "")} `}</p>
               ) : (
                 <div>
-                  <p className="rAnswer IncorrectAns">{`You answered Incorrectly`}</p>
-                  <p className="rAnswer IncorrectAns">{answers[i]}</p>
+                  <p className="Incorrectly">{`You answered Incorrectly`}</p>
+                  <p className="rAnswer IncorrectAns">
+                    {answers[i].replace(/&quot;/g, "").replace(/&#039;/g, "")}
+                  </p>
                   <p className="rAnswer CorrectAns">{`${quest.correct_answer}`}</p>
                 </div>
               )}
