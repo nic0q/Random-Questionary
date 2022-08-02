@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/Random-Questionary/static/css/main.a871dcbe.css",
-    "main.js": "/Random-Questionary/static/js/main.be72442f.js",
-    "static/js/787.27979d97.chunk.js": "/Random-Questionary/static/js/787.27979d97.chunk.js",
-    "index.html": "/Random-Questionary/index.html",
-    "main.a871dcbe.css.map": "/Random-Questionary/static/css/main.a871dcbe.css.map",
-    "main.be72442f.js.map": "/Random-Questionary/static/js/main.be72442f.js.map",
-    "787.27979d97.chunk.js.map": "/Random-Questionary/static/js/787.27979d97.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a871dcbe.css",
-    "static/js/main.be72442f.js"
-  ]
+  "main.css": "/Random-Questionary/static/css/main.3f35abf3.chunk.css",
+  "main.js": "/Random-Questionary/static/js/main.c0a94fff.chunk.js",
+  "main.js.map": "/Random-Questionary/static/js/main.c0a94fff.chunk.js.map",
+  "static/js/1.0d630a3e.chunk.js": "/Random-Questionary/static/js/1.0d630a3e.chunk.js",
+  "static/js/1.0d630a3e.chunk.js.map": "/Random-Questionary/static/js/1.0d630a3e.chunk.js.map",
+  "static/js/2.f5603992.chunk.js": "/Random-Questionary/static/js/2.f5603992.chunk.js",
+  "static/js/2.f5603992.chunk.js.map": "/Random-Questionary/static/js/2.f5603992.chunk.js.map",
+  "runtime~main.js": "/Random-Questionary/static/js/runtime~main.256e03e4.js",
+  "runtime~main.js.map": "/Random-Questionary/static/js/runtime~main.256e03e4.js.map",
+  "static/css/main.3f35abf3.chunk.css.map": "/Random-Questionary/static/css/main.3f35abf3.chunk.css.map",
+  "index.html": "/Random-Questionary/index.html",
+  "precache-manifest.4061c2565acd79dcf710deb48766fb32.js": "/Random-Questionary/precache-manifest.4061c2565acd79dcf710deb48766fb32.js",
+  "service-worker.js": "/Random-Questionary/service-worker.js"
 }
